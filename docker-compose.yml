@@ -1,9 +1,9 @@
 version: '3'
 services:
-  jj-datascience-notebook:
+  jj-base-notebook:
       build: .
       volumes:
         - .:/home/jovyan
       ports:
         - 8888:8888
-      container_name: jj-datascience-notebook-container
+      container_name: jj-base-notebook-container
