@@ -10,10 +10,10 @@ The first notebook will read in this file if it exists.
 ```
 $ echo "X-App-Token,APPLICATION_TOKEN" > api_nycOpenData.csv
 ```
-4. Open **data_ingest_and_clean.ipynb** and run all cells.
-5. Open **311_data_explore.ipynb** and run all cells.
+4. Open Jupyter Notebook in a browser using the URL provided by Docker. Use
+`docker-machine env` to get your default IP if needed.
+5. Open **data_ingest_and_clean.ipynb** and run all cells.
+6. Open **311_data_explore.ipynb** and run all cells. Cells with matplotlib output
+may need to be rerun afterwards.
 
-And if that all somehow fails, feel free to open the notebook snapshots in Github's viewer. 
-These notebooks have an additional city map plotting that won't run in the container.
-
-
+And if that all somehow fails, feel free to open the notebook snapshots in GitHub's viewer. 
